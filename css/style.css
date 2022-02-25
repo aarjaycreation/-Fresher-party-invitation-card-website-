@@ -632,7 +632,7 @@
     /* Style the links inside the sidenav */
     
     #mySidenav a {
-        position: absolute;
+        position: fixed;
         /* Position them relative to the browser window */
         left: -100px;
         /* Position them outside of the screen */
@@ -659,23 +659,23 @@
     /* The about link: 20px from the top with a green background */
     
     #about {
-        top: 20px;
+        top: 250px;
         background-color: #04AA6D;
     }
     
     #blog {
-        top: 250px;
+        top: 332px;
         background-color: #2196F3;
         /* Blue */
     }
     
     #projects {
-        top: 140px;
+        top: 350px;
         background-color: #f44336;
         /* Red */
     }
     
     #contact {
-        top: 500px;
+        top: 400px;
         background-color: #555/* Light Black */
     }
